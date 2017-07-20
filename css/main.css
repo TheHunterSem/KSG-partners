@@ -169,7 +169,7 @@ footer::before {
     color: #201e1d;
     font-size: 24px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 17px;
 }
 
@@ -218,4 +218,29 @@ footer::before {
 
 .about-us-content-block {
     padding: 45px 0;
+}
+
+
+/*------------------------- Practice areas -------------------------*/
+
+.left-block-items-professionals {
+    background-color: #fafafa;
+    padding: 22px 25px;
+    width: 100%;
+}
+
+.left-block-items-professionals .left-block-items-header {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.header-underline {
+    font-size: 24px;
+    line-height: 24px;
+    color: #201e1d;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #e3000f;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 25px;
 }

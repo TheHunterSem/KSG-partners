@@ -169,6 +169,16 @@ footer::before {
     color: #201e1d;
     font-size: 24px;
     line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.left-block-items-list li {
+    margin-bottom: 17px;
+}
+
+.left-block-items-list li:last-child {
+    margin-bottom: 0;
 }
 
 .left-block-items-list li a {
@@ -200,4 +210,12 @@ footer::before {
 
 .about-content-block {
     margin-bottom: 45px;
+}
+
+.about-content-block:last-child {
+    margin-bottom: 0;
+}
+
+.about-us-content-block {
+    padding: 45px 0;
 }

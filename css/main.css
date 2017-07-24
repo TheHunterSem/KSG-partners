@@ -480,6 +480,8 @@ footer::before {
 
 .visit-us-map-block-item {
     margin-bottom: 35px;
+    display: flex;
+    align-items: center;
 }
 
 .visit-us-wrapper {

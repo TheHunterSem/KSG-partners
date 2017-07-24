@@ -302,3 +302,140 @@ footer::before {
     vertical-align: middle;
     line-height: 0;
 }
+
+
+
+/*------------------------- contact -------------------------*/
+
+.left-block-items-contact .left-block-items-list li {
+    margin-bottom: 10px;
+}
+
+.left-block-items-contact .left-block-items-list .mail {
+    color: #e3000f;
+}
+
+.left-block-items-contact .left-block-items-list .mail:hover {
+    text-decoration: underline;
+}
+
+.left-block-items-contact-photo {
+    margin-bottom: 28px;
+    display: block;
+    border-radius: 50%;
+    width: 197px;
+    height: 197px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-block-items-contact-photo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-content-main {
+    color: #201e1d;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header-content-second {
+    font-size: 18px;
+    display: inline-block;
+    color: #c8c8c8;
+    line-height: 18px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+    border-bottom: 3px solid #e3000f;
+    padding-right: 93px;
+    font-weight: 600;
+}
+
+.practice-items-block {
+    background-color: #fafafa;
+    padding: 18px 22px 28px 22px;
+    width: 100%;
+    margin-top: 26px;
+}
+
+.practice-header {
+    font-size: 18px;
+    line-height: 18px;
+    color: #201e1d;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.practice-items-list li {
+    display: inline-block;
+    margin: 21px 28px 0 0;
+}
+
+.practice-items-list li:last-child {
+    margin-right: 0;
+}
+
+
+.practice-items-list li p {
+    color: #5f5f5f;
+    font-weight: 200;
+}
+
+.contact-text-block {
+    margin-top: 38px;
+    display: block;
+}
+
+.contact-text-lists-items {
+    margin-top: 35px;
+}
+
+.contact-text-lists-items-header {
+    font-size: 24px;
+    line-height: 24px;
+    color: #201e1d;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.contact-text-lists-items.big .contact-text-lists-items-header{
+    font-weight: 600;
+}
+
+.contact-text-lists-items ul {
+    margin-top: 25px;
+}
+
+.contact-text-lists-items ul li {
+    list-style: square;
+    margin-bottom: 20px;
+}
+
+.contact-text-lists-items ul li p {
+    color: #5f5f5f;
+    font-weight: 200;
+}
+
+.contact-text-lists-items ul li:last-child {
+    margin-bottom: 0;
+}
+
+.contact-text-lists-items.big ul li p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #5f5f5f;
+}
+
+.contact-text-lists-items.big ul li p a {
+    color: #e3000f;
+}
+
+.contact-text-lists-items.big ul li p a:hover {
+    text-decoration: underline;
+}
